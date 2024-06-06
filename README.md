@@ -10,7 +10,7 @@ Inspired by the [zap/anti-zap](https://nostr.at/nevent1qqsr5yln0f96nmnnnu8lr09pv
 
 An user accounts reputation authority DVM is composed of a *service* and *registration interface*:
 
-The service:  
+The *service*:  
 **1. listen to events emitted by relay(s)**  
   -relay is decided by DVM operator
   - event is upvote/downvote from user on other user's note
