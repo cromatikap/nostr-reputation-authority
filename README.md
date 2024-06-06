@@ -10,16 +10,17 @@ Inspired by the [zap/anti-zap](https://nostr.at/nevent1qqsr5yln0f96nmnnnu8lr09pv
 
 An user accounts reputation authority DVM is composed of a *service* and *registration interface*:
 
-The *service*:  
-**1. listen to events emitted by relay(s)**  
+The *service*:
+
+**1. listens to events emitted by relay(s)**  
   -relay is decided by DVM operator
   - event is upvote/downvote from user on other user's note
 
-**2. change a pubkey score accordingly**  
+**2. changes a pubkey score accordingly**  
   - if author of event is "certified", then his upvote/downvote weight is higher
   - if user of note is "certified", the upvote/downvote weight is lower
 
-**3. emit an event that state the new score (NIP-XXX)**  
+**3. emits a replaceable event that state the new score (NIP-XXX)**  
   - apps can listen to events from their favorite authority(ies) and apply timeline filtering accordingly (display score, warnings or hide with "see more comments")
   - relays can listen to events from their favorite authority(ies) and apply moderation strategy accordingly
 
