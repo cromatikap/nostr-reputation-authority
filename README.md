@@ -13,7 +13,7 @@ An user accounts reputation authority DVM is composed of a *service* and *regist
 The *service*:
 
 **1. listens to events emitted by relay(s)**  
-  -relay is decided by DVM operator
+  - relay is decided by DVM operator
   - event is upvote/downvote from user on other user's note
 
 **2. changes a pubkey score accordingly**  
