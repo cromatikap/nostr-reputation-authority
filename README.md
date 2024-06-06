@@ -8,7 +8,7 @@ Inspired by the [zap/anti-zap](https://nostr.at/nevent1qqsr5yln0f96nmnnnu8lr09pv
 
 ## Proposal
 
-An user accounts reputation authority DVM is composed of a *service* and *registration interface*:
+A user accounts reputation authority DVM is composed of a *service* and *registration interface*:
 
 The *service*:
 
